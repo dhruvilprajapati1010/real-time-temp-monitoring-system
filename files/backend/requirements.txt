@@ -1,0 +1,10 @@
+# backend/requirements.txt
+# Install with: pip install -r requirements.txt
+
+flask==3.0.3
+flask-cors==4.0.1
+pymongo[srv]==4.7.3      # [srv] adds support for MongoDB Atlas SRV connection strings
+python-dotenv==1.0.1
+requests==2.32.3
+twilio==9.2.3
+gunicorn==22.0.0         # Production WSGI server
