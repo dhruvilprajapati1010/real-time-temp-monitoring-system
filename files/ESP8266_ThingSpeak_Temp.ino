@@ -111,4 +111,3 @@ void connectWiFi() {
   } else {
     Serial.println("\n❌ WiFi failed. Will retry...");
   }
-}
