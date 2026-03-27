@@ -1,0 +1,140 @@
+{
+  "alerts": {
+    "alert-001": {
+      "alertType": "high-temperature",
+      "currentValue": 32.5,
+      "deviceId": "ESP8266-001",
+      "deviceName": "Living Room",
+      "message": "Temperature exceeded maximum threshold",
+      "severity": "critical",
+      "status": "active",
+      "threshold": 30,
+      "timestamp": "2026-03-27T10:25:00Z"
+    },
+    "alert-002": {
+      "alertType": "low-temperature",
+      "currentValue": 14.2,
+      "deviceId": "ESP8266-002",
+      "deviceName": "Bedroom",
+      "message": "Temperature dropped below minimum threshold",
+      "severity": "warning",
+      "status": "resolved",
+      "threshold": 15,
+      "timestamp": "2026-03-27T10:20:00Z"
+    }
+  },
+  "devices": {
+    "ESP8266-001": {
+      "alertThresholds": {
+        "maxHumidity": 80,
+        "maxTemp": 30,
+        "minHumidity": 30,
+        "minTemp": 15
+      },
+      "deviceId": "ESP8266-001",
+      "deviceName": "Living Room",
+      "firmwareVersion": "2.1.0",
+      "lastOnline": "2026-03-27T10:30:00Z",
+      "location": "Living Room",
+      "macAddress": "5C:CF:7F:10:20:30",
+      "status": "online"
+    },
+    "ESP8266-002": {
+      "alertThresholds": {
+        "maxHumidity": 75,
+        "maxTemp": 28,
+        "minHumidity": 35,
+        "minTemp": 16
+      },
+      "deviceId": "ESP8266-002",
+      "deviceName": "Bedroom",
+      "firmwareVersion": "2.1.0",
+      "lastOnline": "2026-03-27T10:30:15Z",
+      "location": "Bedroom",
+      "macAddress": "5C:CF:7F:11:22:33",
+      "status": "online"
+    }
+  },
+  "statistics": {
+    "ESP8266-001": {
+      "averageHumidity": 63.5,
+      "averageTemperature": 22.1,
+      "deviceId": "ESP8266-001",
+      "lastUpdated": "2026-03-27T10:30:00Z",
+      "maxTemperature": 28.3,
+      "minTemperature": 18.2,
+      "totalReadings": 1440
+    },
+    "ESP8266-002": {
+      "averageHumidity": 58.2,
+      "averageTemperature": 20.8,
+      "deviceId": "ESP8266-002",
+      "lastUpdated": "2026-03-27T10:30:15Z",
+      "maxTemperature": 26.5,
+      "minTemperature": 17.1,
+      "totalReadings": 1440
+    }
+  },
+  "temperatures": {
+    "-Ooht5GNxhbW4iW2Hw7X": {
+      "deviceId": "ESP8266-001",
+      "deviceName": "Living Room",
+      "humidity": 65,
+      "location": "Living Room",
+      "status": "active",
+      "temperature": 22.5,
+      "timestamp": "2026-03-27T06:03:55.857Z"
+    },
+    "-OoiL5JeYpK5TpjByR6l": {
+      "deviceId": "ESP8266-001",
+      "deviceName": "Living Room",
+      "location": "Living Room",
+      "source": "thingspeak-live",
+      "status": "active",
+      "temperature": 34.4,
+      "timestamp": "2026-03-27T08:10:38.244Z"
+    },
+    "-OoiMVE7UzOkPu6iAdDk": {
+      "deviceId": "ESP8266-001",
+      "deviceName": "Living Room",
+      "location": "Living Room",
+      "source": "thingspeak-live",
+      "status": "active",
+      "temperature": 34.4,
+      "timestamp": "2026-03-27T08:16:46.531Z"
+    },
+    "temp-001": {
+      "deviceId": "ESP8266-001",
+      "deviceName": "Living Room",
+      "humidity": 65,
+      "location": "Living Room",
+      "status": "active",
+      "temperature": 22.5,
+      "timestamp": "2026-03-27T10:30:00Z"
+    },
+    "temp-002": {
+      "deviceId": "ESP8266-002",
+      "deviceName": "Bedroom",
+      "humidity": 58,
+      "location": "Bedroom",
+      "status": "active",
+      "temperature": 20.3,
+      "timestamp": "2026-03-27T10:30:15Z"
+    }
+  },
+  "users": {
+    "user-001": {
+      "createdAt": "2026-01-15T08:00:00Z",
+      "email": "user@example.com",
+      "lastLogin": "2026-03-27T09:00:00Z",
+      "name": "John Doe",
+      "preferences": {
+        "notifications": true,
+        "temperatureUnit": "celsius",
+        "theme": "dark"
+      },
+      "role": "admin",
+      "userId": "user-001"
+    }
+  }
+}
